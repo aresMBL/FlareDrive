@@ -1,0 +1,10 @@
+name = 'cloudflare'
+compatibility_date = '2023-02-08'
+
+main='index.html'
+account_id = '6a9c312be39a7d11b587482cf6e4798e' # ← Replace with your Account ID.
+workers_dev = true
+[[r2_buckets]]
+binding = 'BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'flaredrive'
+preview_bucket_name = 'flaredriv'
